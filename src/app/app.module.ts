@@ -9,6 +9,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
+import { HomepageComponent } from './components/homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CookieService } from 'ngx-cookie-service';
     LoginComponent,
     RegisterComponent,
     DashboardComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,

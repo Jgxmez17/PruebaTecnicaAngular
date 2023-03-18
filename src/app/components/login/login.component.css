@@ -8,13 +8,13 @@
   }
   .custom-form {
     min-width: 300px;
-    max-width: 60%;
+    max-width: 40%;
     margin: 5px auto;
     padding: 2rem 4rem;
     margin: auto;
     border-radius: 1rem;
     background-color: transparent;
-    box-shadow: 13px 13px 20px #0052965b, -9px -9px 15px #f3f3f331;
+    box-shadow: 13px 13px 20px #009bd85b, -9px -9px 15px #f3f3f331;
     color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 25%;
@@ -39,7 +39,7 @@
     width: 100%;
     display: block;
     padding: 0.875rem 1rem;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     box-shadow: 3px 3px 8px #000000, -3px -3px 8px #ffffff;
     cursor: pointer;
   }
