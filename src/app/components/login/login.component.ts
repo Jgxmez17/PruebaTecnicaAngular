@@ -16,7 +16,8 @@ export class LoginComponent {
   login() {
     const user = {email: this.email, password: this.password};
     this.usersService.login(user).subscribe( data => {
-      console.log(data);
+      this.usersService.setToken(data.token);
+      // console.log(data);
     });
     // console.log(this.email);
     // console.log(this.password);
