@@ -1,51 +1,51 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  h1 {
-    margin: 0;
-    padding: 0;
-  }
-  .custom-form {
-    min-width: 300px;
-    max-width: 40%;
-    margin: 5px auto;
-    padding: 2rem 4rem;
-    margin: auto;
-    border-radius: 1rem;
-    background-color: transparent;
-    box-shadow: 13px 13px 20px #009bd85b, -9px -9px 15px #f3f3f331;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 25%;
-  }
-  .custom-form input {
-    display: block;
-    margin: 2rem 0;
-    width: 100%;
-    border-radius: 0.3rem;
-    padding: 1rem;
-    border: 1px;
-    background: #f7f7f7be;
-  }
-  .custom-form button {
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    border: none;
-    font-size: 0.875rem;
-    color: #ffffff;
-    font-weight: bold;
-    background-color: #0072a7e8;
-    width: 100%;
-    display: block;
-    padding: 0.875rem 1rem;
-    border-radius: 0.2rem;
-    box-shadow: 3px 3px 8px #000000, -3px -3px 8px #ffffff;
-    cursor: pointer;
-  }
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.custom-form {
+  min-width: 300px;
+  max-width: 40%;
+  margin: 5px auto;
+  padding: 2rem 4rem;
+  margin: auto;
+  border-radius: 1rem;
+  background-color: transparent;
+  box-shadow: 13px 13px 20px #6299a05b, -4px -4px 9px #297b8a31;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10%;
+}
+.custom-form input {
+  display: block;
+  margin: 2rem 0;
+  width: 100%;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  border: 1px;
+  background: #f7f7f7be;
+}
+.custom-form button {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  border: none;
+  font-size: 0.875rem;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #0072a7e8;
+  width: 100%;
+  display: block;
+  padding: 0.875rem 1rem;
+  border-radius: 0.2rem;
+  box-shadow: 3px 3px 8px #000000, -3px -3px 8px #ffffff;
+  cursor: pointer;
+}
 
-  .custom-form button:hover {
-    background-color: black;
-    box-shadow: 3px 3px 8px #0073a0, -3px -3px 8px #ffffff;
+.custom-form button:hover {
+  background-color: black;
+  box-shadow: 3px 3px 8px #0073a0, -3px -3px 8px #ffffff;
 
-  }
+}

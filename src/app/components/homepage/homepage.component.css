@@ -1,9 +1,19 @@
+.active-link {
+  background-color: transparent ;
+}
+
+.active-link a {
+  color: rgb(70, 226, 43);
+}
+
+
 /*header*/
 .header{
   width: 100%;
   background-color: rgb(255, 255, 255);
   border-bottom: solid 1px rgb(0, 0, 0);
-  padding-top: 3px;
+  padding-top: 2px;
+  padding-bottom: 5px;
 }
 
 .menu{
@@ -13,15 +23,10 @@
   display: flex;
   align-items: center;
   align-content: center;
-  justify-content: space-between;
-  margin-left: 2%;
+  justify-content: flex-end;
+  margin-left: 1%;
 }
 
-.menu li{
-  padding-top: 1px;
-  margin-bottom: 1px;
-  color: rgb(255, 255, 255);
-}
 
 /*botones*/
 
@@ -86,7 +91,6 @@
   align-content: center;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
 }
 
 
