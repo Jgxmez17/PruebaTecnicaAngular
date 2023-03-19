@@ -1,3 +1,8 @@
 p {
     text-align: center;
+    cursor: pointer;
+}
+
+p:hover {
+    text-decoration: line-through blue;
 }
