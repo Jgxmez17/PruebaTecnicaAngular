@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CookieService } from 'ngx-cookie-service';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { CsvUploadComponent } from './components/csvupload/csvupload.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     RegisterComponent,
     DashboardComponent,
     HomepageComponent,
+    CsvUploadComponent
   ],
   imports: [
     BrowserModule,

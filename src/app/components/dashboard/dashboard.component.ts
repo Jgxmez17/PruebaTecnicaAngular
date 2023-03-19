@@ -8,10 +8,14 @@ import { Papa } from 'ngx-papaparse';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit{
+  public headers: string[] = [];
+  public rows: any[] = [];
+
   constructor(public userService: UsersService) {}
   ngOnInit(): void {
       this.getUserLogged();
   }
+
 
   getUserLogged() {
     this.userService.getUser().subscribe(user => {
