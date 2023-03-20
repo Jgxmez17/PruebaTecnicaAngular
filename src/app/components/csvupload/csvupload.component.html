@@ -1,1 +1,44 @@
-<input type="file" (change)="onFileChange($event)">
+<div>
+    <h1>Subir archivo CSV</h1>
+    <input type="file" (change)="onFileChange($event)">
+  </div>
+  
+  <div>
+    <h2>Datos del archivo CSV</h2>
+    <table>
+      <thead>
+        <tr>
+          <th *ngFor="let header of headers">{{header}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of data">
+          <td *ngFor="let header of headers">{{row[header]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div>
+    <h2>Gráfico de barras</h2>
+    <canvas #canvas></canvas>
+  </div>
+  
+<!-- <body>
+    <input type="file" (change)="onFileChange($event)"> 
+
+<table>
+    <thead>
+      <tr>
+        <th *ngFor="let header of headers">{{ header }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of data">
+        <td *ngFor="let header of headers">{{ row[header] }}</td>
+      </tr>
+    </tbody>
+  </table>
+    
+</body> -->
+
