@@ -1,5 +1,5 @@
 import { Component, ViewChild, AfterViewInit, ElementRef } from '@angular/core';
-import { Chart } from 'chart.js';
+import { Chart, registerables } from 'chart.js';
 
 @Component({
   selector: 'app-csvupload',
@@ -10,10 +10,14 @@ export class CsvuploadComponent implements AfterViewInit{
   
   @ViewChild('canvas', { static: false }) canvas: ElementRef | undefined;
   ctx: CanvasRenderingContext2D | undefined;
-  chart: Chart | undefined;
+  chart: any;
 
   data: any[] = [];
   headers: any;
+
+
+  constructor (){Chart.register(...registerables)}
+
 
   ngAfterViewInit() {
     if (this.canvas && this.canvas.nativeElement) {
@@ -33,11 +37,11 @@ export class CsvuploadComponent implements AfterViewInit{
     },
     options: {
       scales: {
-        yAxes: [{
-          ticks: {
-            beginAtZero: true
-          }
-        }]
+        // yAxes: [{
+        //   ticks: {
+        //     beginAtZero: true
+        //   }
+        // }]
       }
     }
   });
